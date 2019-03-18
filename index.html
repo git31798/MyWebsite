@@ -19,7 +19,9 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
             integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
             crossorigin="anonymous"></script>
-
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+          integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <!--menu-->
     <link rel="stylesheet" href="css/menu-responsive.css">
     <!--body-->
@@ -35,9 +37,20 @@
 <body>
 <header class="container-fluid">
     <div class="row h-100">
-        <div class="ml-auto d-flex justify-content-center align-items-center mr-3 mr-md-5">
-            <a class="btn btn-outline-warning mx-2" href="#">Đăng nhập</a>
-            <a class="btn btn-outline-warning" href="#">Đăng ký</a></div>
+      <div class="col-12 col-md-8"></div>
+      <div class="col-12 col-md-4 d-flex flex-column justify-content-center align-items-center">
+          <div class="mb-auto my-2 d-none d-md-block">
+              <a href="#"><i class="fab fa-facebook mr-2" style="font-size: 35px; color: yellow"></i></a>
+              <a href="#"><i class="fab fa-twitter-square mr-2" style="font-size: 35px; color: yellow"></i></a>
+              <a href="#"><i class="fab fa-instagram mr-2" style="font-size: 35px; color: yellow"></i></a>
+              <a href="#"><i class="fab fa-github" style="font-size: 35px; color: yellow"></i> </a>
+          </div>
+          <div class="ml-auto h-100 d-flex justify-content-center align-items-center">
+              <a class="btn btn-outline-warning mx-2" href="#">Đăng nhập</a>
+              <a class="btn btn-outline-warning" href="#">Đăng ký</a>
+          </div>
+
+      </div>
 
     </div>
 </header>
@@ -100,24 +113,12 @@
                          src="./svg/loading/static-svg/spin.svg"/>
                 </div>
                 <div data-u="slides" class="slider">
-                    <div>
-                        <img data-u="image" src="./img/gallery/980x380/011.jpg"/>
-                    </div>
-                    <div>
-                        <img data-u="image" src="./img/gallery/980x380/012.jpg"/>
-                    </div>
-                    <div>
-                        <img data-u="image" src="./img/gallery/980x380/013.jpg"/>
-                    </div>
-                    <div>
-                        <img data-u="image" src="./img/gallery/980x380/014.jpg"/>
-                    </div>
-                    <div>
-                        <img data-u="image" src="./img/gallery/980x380/015.jpg"/>
-                    </div>
-                    <div>
-                        <img data-u="image" src="./img/gallery/980x380/016.jpg"/>
-                    </div>
+                    <div class="Image Image-First"></div>
+                    <div class="Image Image-Second"></div>
+                    <div class="Image Image-Third"></div>
+                    <div class="Image Image-Fourth"></div>
+                    <div class="Image Image-Fifth"></div>
+                    <div class="Image Image-Sixth"></div>
                 </div>
                 <!-- Bullet Navigator -->
                 <div data-u="navigator" class="jssorb053" style="position:absolute;bottom:12px;right:12px;"

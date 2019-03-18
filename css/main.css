@@ -123,6 +123,38 @@ ul.list-group li, ul.list-group li a {
         height: 380px;
         overflow: hidden;
     }
+    .Image {
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+
+    .Image-First {
+        background-image: url(../images/anhslider01.jpg);
+        background-position: center;
+    }
+
+    .Image-Second {
+        background-image: url(../images/anhslider02.png);
+        background-position: center;
+    }
+
+    .Image-Third {
+        background-image: url(../images/anhslider03.jpg);
+        background-position: center;
+    }
+    .Image-Fourth {
+        background-image: url(../images/anhslider04.jpg);
+        background-position: center;
+    }
+    .Image-Fifth {
+        background-image: url(../images/anhslider05.jpg);
+        background-position: center -200px;
+    }
+    .Image-Sixth {
+        background-image: url(../images/anhslider06.jpg);
+        background-position: center;
+    }
 }
 
 
