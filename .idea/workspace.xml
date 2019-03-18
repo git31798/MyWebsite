@@ -1,30 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="23234b02-75c6-497c-b880-6abeb55d0478" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/menu-responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/menu-responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/10.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/14.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/15.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/9.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/anhbia.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/line1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/images/line2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-    </list>
+    <list default="true" id="23234b02-75c6-497c-b880-6abeb55d0478" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -197,16 +174,15 @@
       <workItem from="1552558992028" duration="1645000" />
       <workItem from="1552827980178" duration="5608000" />
       <workItem from="1552879461066" duration="321000" />
-      <workItem from="1552880719267" duration="7765000" />
+      <workItem from="1552880719267" duration="7832000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28997000" />
+    <option name="totallyTimeSpent" value="29064000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
