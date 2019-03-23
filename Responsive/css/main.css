@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css?family=Bad+Script');
 * {
     outline: none !important;
     scroll-behavior: smooth;
@@ -31,6 +31,7 @@ p {
 .navbar-light .navbar-nav .active > .nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show > .nav-link {
     color: #000;
     background: #fff;
+
 }
 
 .navbar-light .navbar-nav .active > .nav-link:hover {
@@ -39,6 +40,8 @@ p {
 
 .navbar-light .navbar-nav .nav-link {
     color: rgba(255, 255, 255, .8);
+    font-size: 1.2rem;
+    font-weight: bold;
 }
 
 .navbar-light .navbar-nav .nav-link:hover,
@@ -104,6 +107,23 @@ p {
     height: 100%;
 }
 
+/*.contentBox {*/
+    /*position: relative;*/
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*justify-content: center;*/
+    /*align-content: center;*/
+    /*text-align: center;*/
+    /*z-index: 10;*/
+/*}*/
+
+/*.contentBox h1 {*/
+    /*font-weight: 800;*/
+    /*color: #fff;*/
+    /*text-transform: uppercase;*/
+    /*font-size: 5rem;*/
+/*}*/
+
 .contentBox {
     position: relative;
     display: flex;
@@ -112,15 +132,96 @@ p {
     align-content: center;
     text-align: center;
     z-index: 10;
+
 }
+/*.tuanpham-online {*/
+
+/*display: flex;*/
+/*justify-content: center;*/
+/*align-items: center;*/
+/*height: 100vh;*/
+/*background: #000;*/
+/*font-family: 'Bad Script', cursive;*/
+/*}*/
 
 .contentBox h1 {
-    font-weight: 800;
-    color: #fff;
-    text-transform: uppercase;
-    font-size: 5rem;
+    font-family: 'Bad Script', cursive;
+    margin: 0;
+    padding: 0;
+    font-size: 10em;
+    font-weight: 600;
+    letter-spacing: 3px;
 }
 
+.contentBox h1 span {
+    color: #fff;
+    display: table-cell;
+    padding: 0;
+    margin: 0;
+    animation: animate 2s linear infinite;
+}
+.contentBox h1 span:nth-child(1){
+    animation-delay: 0s;
+}
+.contentBox h1 span:nth-child(2){
+    animation-delay: 0.25s;
+}
+.contentBox h1 span:nth-child(3){
+    animation-delay: 0.5s;
+}
+.contentBox h1 span:nth-child(4){
+    animation-delay: 0.75s;
+}
+.contentBox h1 span:nth-child(5){
+    animation-delay: 1s;
+}
+.contentBox h1 span:nth-child(6){
+    animation-delay: 1.25s;
+}
+.contentBox h1 span:nth-child(7){
+    animation-delay: 1.5s;
+}
+.contentBox h1 span:nth-child(8){
+    animation-delay: 1.75s;
+}
+.contentBox h1 span:nth-child(9){
+    animation-delay: 2s;
+}
+.contentBox h1 span:nth-child(10){
+    animation-delay: 2.25s;
+}
+.contentBox h1 span:nth-child(11){
+    animation-delay: 2.5s;
+}
+.contentBox h1 span:nth-child(12){
+    animation-delay: 2.75s;
+}
+.contentBox h1 span:nth-child(13){
+    animation-delay: 3s;
+}
+.contentBox h1 span:nth-child(14){
+    animation-delay: 3.25s;
+}
+@keyframes animate {
+    0%, 100% {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00bf,
+        0 0 10px #00b3ff,
+        0 0 20px #00b3ff,
+        0 0 40px #00b3ff,
+        0 0 80px #00b3ff,
+        0 0 120px #00b3ff,
+        0 0 200px #00b3ff,
+        0 0 300px #00b3ff,
+        0 0 400px #00b3ff;
+    }
+    5%, 95% {
+        color: #fff;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
 .contentBox p {
     color: #fff;
     font-size: 1.3rem;

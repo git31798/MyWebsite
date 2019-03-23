@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3444a4b4-5018-4252-bcee-a9e12d41a83a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/css/main3.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index3.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main4.css" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -16,20 +17,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="330" column="21" lean-forward="true" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="21" />
+            <state relative-caret-position="1076">
+              <caret line="363" column="7" lean-forward="true" selection-start-line="363" selection-start-column="7" selection-end-line="363" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/main.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="211">
-              <caret line="507" column="22" lean-forward="true" selection-start-line="507" selection-start-column="22" selection-end-line="507" selection-end-column="22" />
+            <state relative-caret-position="-46">
+              <caret line="217" column="5" lean-forward="true" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -53,6 +54,7 @@
         <option value="$PROJECT_DIR$/CSS Skewed Border.html" />
         <option value="$PROJECT_DIR$/css/Box.css" />
         <option value="$PROJECT_DIR$/css/main3.css" />
+        <option value="$PROJECT_DIR$/css/main4.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/main.css" />
       </list>
@@ -69,6 +71,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -85,13 +88,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="E:/HTML-CSS/CSS_04" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -140,14 +142,16 @@
       <workItem from="1553177997069" duration="215000" />
       <workItem from="1553178299099" duration="4128000" />
       <workItem from="1553310656833" duration="18276000" />
+      <workItem from="1553336196851" duration="3627000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50081000" />
+    <option name="totallyTimeSpent" value="53708000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -195,27 +199,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/CSS Skewed Border.html" />
     <entry file="file://$PROJECT_DIR$/css/Box.css" />
-    <entry file="file://$PROJECT_DIR$/index3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="13" selection-start-line="13" selection-end-line="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main3.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1776">
-          <caret line="3" lean-forward="true" selection-end-line="97" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/main.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="211">
-          <caret line="507" column="22" lean-forward="true" selection-start-line="507" selection-start-column="22" selection-end-line="507" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/index3.html" />
+    <entry file="file://$PROJECT_DIR$/css/main3.css" />
     <entry file="file://E:/HTML-CSS/CSS_01/css/main1.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -223,10 +208,31 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/index4.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main4.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-442">
+          <caret line="62" column="24" lean-forward="true" selection-end-line="98" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="330" column="21" lean-forward="true" selection-start-line="330" selection-start-column="21" selection-end-line="330" selection-end-column="21" />
+        <state relative-caret-position="1076">
+          <caret line="363" column="7" lean-forward="true" selection-start-line="363" selection-start-column="7" selection-end-line="363" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-46">
+          <caret line="217" column="5" lean-forward="true" selection-start-line="217" selection-start-column="5" selection-end-line="217" selection-end-column="5" />
         </state>
       </provider>
     </entry>

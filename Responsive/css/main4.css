@@ -1,77 +1,87 @@
 @import url('https://fonts.googleapis.com/css?family=Bad+Script');
-
-.tuanpham-online {
-
+.contentBox {
+    position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
-    height: 100vh;
-    background: #000;
-    font-family: 'Bad Script', cursive;
-}
+    align-content: center;
+    text-align: center;
+    z-index: 10;
 
-.tuanpham-online h1 {
+}
+/*.tuanpham-online {*/
+
+    /*display: flex;*/
+    /*justify-content: center;*/
+    /*align-items: center;*/
+    /*height: 100vh;*/
+    /*background: #000;*/
+    /*font-family: 'Bad Script', cursive;*/
+/*}*/
+
+.contentBox h1 {
+    font-family: 'Bad Script', cursive;
     margin: 0;
     padding: 0;
-    color: #111;
     font-size: 10em;
     font-weight: 600;
     letter-spacing: 3px;
 }
 
-.tuanpham-online h1 span {
+.contentBox h1 span {
+    color: #fff;
     display: table-cell;
     padding: 0;
     margin: 0;
     animation: animate 2s linear infinite;
 }
-.tuanpham-online h1 span:nth-child(1){
+.contentBox h1 span:nth-child(1){
     animation-delay: 0s;
 }
-.tuanpham-online h1 span:nth-child(2){
+.contentBox h1 span:nth-child(2){
     animation-delay: 0.25s;
 }
-.tuanpham-online h1 span:nth-child(3){
+.contentBox h1 span:nth-child(3){
     animation-delay: 0.5s;
 }
-.tuanpham-online h1 span:nth-child(4){
+.contentBox h1 span:nth-child(4){
     animation-delay: 0.75s;
 }
-.tuanpham-online h1 span:nth-child(5){
+.contentBox h1 span:nth-child(5){
     animation-delay: 1s;
 }
-.tuanpham-online h1 span:nth-child(6){
+.contentBox h1 span:nth-child(6){
     animation-delay: 1.25s;
 }
-.tuanpham-online h1 span:nth-child(7){
+.contentBox h1 span:nth-child(7){
     animation-delay: 1.5s;
 }
-.tuanpham-online h1 span:nth-child(8){
+.contentBox h1 span:nth-child(8){
     animation-delay: 1.75s;
 }
-.tuanpham-online h1 span:nth-child(9){
+.contentBox h1 span:nth-child(9){
     animation-delay: 2s;
 }
-.tuanpham-online h1 span:nth-child(10){
+.contentBox h1 span:nth-child(10){
     animation-delay: 2.25s;
 }
-.tuanpham-online h1 span:nth-child(11){
+.contentBox h1 span:nth-child(11){
     animation-delay: 2.5s;
 }
-.tuanpham-online h1 span:nth-child(12){
+.contentBox h1 span:nth-child(12){
     animation-delay: 2.75s;
 }
-.tuanpham-online h1 span:nth-child(13){
+.contentBox h1 span:nth-child(13){
     animation-delay: 3s;
 }
-.tuanpham-online h1 span:nth-child(14){
+.contentBox h1 span:nth-child(14){
     animation-delay: 3.25s;
 }
 @keyframes animate {
     0%, 100% {
         color: #fff;
         filter: blur(2px);
-        text-shadow: 0 0 10px #00b3ff,
+        text-shadow: 0 0 10px #00bf,
                     0 0 10px #00b3ff,
                     0 0 20px #00b3ff,
                     0 0 40px #00b3ff,
@@ -82,7 +92,7 @@
                     0 0 400px #00b3ff;
     }
     5%, 95% {
-        color: #111;
+        color: #fff;
         filter: blur(0px);
         text-shadow: none;
     }
