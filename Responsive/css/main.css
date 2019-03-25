@@ -56,8 +56,11 @@ p {
     color: rgba(255, 255, 255, 1);
     font-size: 2.5rem;
     font-weight: 600;
-}
 
+}
+/*div#navbarSupportedContent {*/
+/*    background: #000;*/
+/*}*/
 /*END HEADER*/
 
 /*HOME*/
@@ -690,8 +693,14 @@ footer {
         padding: 100px 0;
 
     }
-
-    .contentBox h1,
+    .contentBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentBox h1{
+        font-size: 2.5rem;
+    }
     .sec2 h2 {
         font-size: 2rem;
     }
@@ -767,6 +776,14 @@ footer {
 @media (min-width: 992px) {
     .contact {
         min-height: 50vh;
+    }
+    .contentBox{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .contentBox h1{
+        font-size: 8.5rem;
     }
 }
 
