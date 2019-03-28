@@ -1,0 +1,48 @@
+section.info .works .fas{
+    font-size: 20px;
+    float: left;
+    margin: 0 10px;
+
+}
+section.info .works .sec{
+    padding: 5px 5px 5px 43px;
+}
+section.info .studies .fas{
+    font-size: 20px;
+    float: left;
+    margin: 0 9px;
+
+}
+section.info .studies .sec{
+    padding: 5px;
+}
+section.info .lives .fas{
+     font-size: 20px;
+     float: left;
+     margin: 0 9px;
+
+ }
+section.info .lives .sec{
+    padding: 5px;
+    margin-left: 40px;
+}
+section.info .from .fas{
+    font-size: 20px;
+    float: left;
+    margin-left: 12.5px;
+
+}
+section.info .from .sec{
+    padding: 5px;
+    margin-left: 40px;
+}
+section.info .single .fas{
+    font-size: 20px;
+    float: left;
+    margin: 0 10px;
+
+}
+section.info .single .sec{
+    padding: 5px;
+    margin-left: 40px;
+}

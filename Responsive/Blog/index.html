@@ -10,22 +10,26 @@
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/menu.css">
 
 </head>
 <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
 <!--HEADER-->
 <header>
-        <div class="logo">PMT</div>
-        <nav>
-                <ul>
-                    <li><a href="#">Trang chu</a></li>
-                </ul>
-        </nav>
-
+    <div class="logo">PMT</div>
+    <nav>
+        <ul>
+            <li><a href="#" class="active">Trang chủ</a></li>
+            <li><a href="#">Thi thử Oline</a></li>
+            <li><a href="#">Giải Toán dạo</a></li>
+            <li><a href="#">Tài liệu Toán</a></li>
+            <li><a href="#">Liên hệ</a></li>
+        </ul>
+    </nav>
+    <div class="menu-toggle"><i class="fas fa-bars"></i></div>
 </header>
-<!--END HERDER-->
+
+
 
 
 
@@ -39,14 +43,13 @@
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
 <script type="text/javascript">
-    $(document).scroll(function () {
-        $('.navbar').toggleClass('scrolled', $(this).scrollTop() > $('.navbar').height());
-    });
+    $(document).ready(function() {
+        $('.menu-toggle').click(function() {
+            $('nav').toggleClass('active');
+        })
+    })
 </script>
+
 </body>
 </html>

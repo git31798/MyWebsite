@@ -1,0 +1,123 @@
+* {
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../images/line2.png);
+}
+.row:after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+/*.row{*/
+    /*background:url(../images/br.jpg);*/
+/*}*/
+.container{
+    width: 80%;
+    margin: auto;
+
+}
+@keyframes slidy {
+    0%{left: 0%}
+    20%{left: 0%}
+    25%{left: -100%}
+    45%{left: -100%}
+    50%{left: -200%}
+    70%{left: -200%}
+    75%{left: 300%}
+    95%{left: -300%}
+    100%{left: -400%}
+}
+header{
+    background: #009688;
+    overflow: auto;
+    color: #fff;
+    text-align: left;
+    padding: 10px;
+}
+header img{
+    float: left;
+    margin-right: 30px;
+    width: 100px;
+    border-radius: 50px;
+
+}
+header h2{
+   font-size: 25px;
+    font-weight: bold;
+}
+header p{
+    font-style: italic;
+}
+#photo-gallery{
+    width: 100%;
+    overflow: hidden;
+}
+#photo-gallery .slider{
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 30s slidy infinite;
+    background: rgba(255, 255, 255, 0.4);
+}
+#photo-gallery .slider div{
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+}
+
+#photo-gallery .slider div img{
+    width: 100%;
+}
+
+section.profile{
+    background: #fff;
+    padding: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+section.profile img{
+    width: 100px;
+    border-radius: 50px;
+}
+section.profile .personal{
+    margin: 0 10px;
+}
+section.profile .personal .sec{
+    font-size: 18px;
+    padding: 3px 0;
+    font-weight: bold;
+    float: left;
+}
+
+section.profile .personal i.fas{
+    float: left;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+section.profile .personal p.desc{
+    padding: 5px 0;
+    line-height: 1.2em;
+    clear: both;
+    font-size: 14.3px;
+}
+
+section.info{
+    margin: 20px 10px 0 10px;
+}
+.col-4{
+    background: url(../images/info.jpg);
+}
+section.info .sec a{
+    text-decoration: none;
+    color: blue;
+}
+
+
+
+
+
+
