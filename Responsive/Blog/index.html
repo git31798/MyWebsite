@@ -8,30 +8,92 @@
           integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
           integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
     <link rel="stylesheet" href="css/main.css">
-
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="50">
+<body>
 
 <!--HEADER-->
 <header>
     <div class="logo">PMT</div>
     <nav>
         <ul>
-            <li><a href="#" class="active">Trang chủ</a></li>
-            <li><a href="#">Thi thử Oline</a></li>
-            <li><a href="#">Giải Toán dạo</a></li>
-            <li><a href="#">Tài liệu Toán</a></li>
-            <li><a href="#">Liên hệ</a></li>
+            <li><a href="#" class="active hvr-wobble-horizontal">Trang chủ</a></li>
+            <li><a href="#" class="hvr-wobble-horizontal">Thi thử Oline</a></li>
+            <li><a href="#" class="hvr-wobble-horizontal">Giải Toán dạo</a></li>
+            <li class="sub-menu"><a href="#" class="hvr-wobble-horizontal">Tài liệu Toán</a>
+            </li>
+            <li><a href="#" class="hvr-wobble-horizontal">Liên hệ</a></li>
         </ul>
     </nav>
     <div class="menu-toggle"><i class="fas fa-bars"></i></div>
 </header>
 
 
-
-
+<section class="margin-section">
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-6 col-lg-4">
+                <ul class="listgroup">
+                    <li><a href="#" class="hvr-wobble-horizontal">Đề thi thử THPT QG 2019</a></li>
+                    <li><a href="#" class="hvr-wobble-horizontal">Đề thi thử THPT QG 2018</a></li>
+                    <li><a href="#" class="hvr-wobble-horizontal">Đề thi thử THPT QG 2017</a></li>
+                    <li><a href="#" class="hvr-wobble-horizontal">Tài liệu Toán lớp 12<i class="fas fa-caret-down"></i></a>
+                        <ul>
+                            <li><a href="#">Khảo sát Hàm số</a></li>
+                            <li><a href="#">Mũ - Logagit</a></li>
+                            <li><a href="#">Tích phân - Ứng dụng</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="hvr-wobble-horizontal">Tài liệu Toán lớp 11<i class="fas fa-caret-down"></i></a>
+                        <ul>
+                            <li><a href="#">Lượng giác</a></li>
+                            <li><a href="#">Dãy số - CSN -CSC</a></li>
+                            <li><a href="#">Giới hạn - Liên tục</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="hvr-wobble-horizontal">Tài liệu toán lớp 10<i class="fas fa-caret-down"></i></a>
+                        <ul>
+                            <li><a href="#">Mệnh đề - Tập hợp</a></li>
+                            <li><a href="#">Hàm số</a></li>
+                            <li><a href="#">Vectơ</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="hvr-wobble-horizontal">Đề thi HSG các năm</a></li>
+                </ul>
+            </div>
+            <div class="col-12 col-md-6 col-lg-8">
+                <div class="Box d-lg-flex">
+                    <div class="imgBox">
+<!--                        <img src="images/0001.jpg" alt="" class="img-fluid">-->
+                    </div>
+                    <div class="content">
+                        <h2><a href="#">Đề thi thử THPTQG 2019 - Sở GD&ĐT - Hà Nội - Lần 1 - 2019</a></h2>
+                        <div class="d-lg-flex btn-group my-3">
+                            <a href="#" class="btn btn-outline-dark">TuanPhamOnline</a>
+                            <a href="#" class="btn btn-outline-dark">31/3/2019</a>
+                            <a href="#" class="btn btn-outline-dark">Đề thi thử 2019</a>
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+                <div class="Box d-lg-flex my-4">
+                    <div class="imgBox">
+                        <!--                        <img src="images/0001.jpg" alt="" class="img-fluid">-->
+                    </div>
+                    <div class="content">
+                        <h2><a href="#">Tuyển tập 200 đề thi thử THPT Quốc gia 2019 (File Word)</a></h2>
+                        <div class="d-lg-flex btn-group my-3">
+                            <a href="#" class="btn btn-outline-dark">TuanPhamOnline</a>
+                            <a href="#" class="btn btn-outline-dark">31/3/2019</a>
+                            <a href="#" class="btn btn-outline-dark">Đề thi thử 2019</a>
+                        </div>
+                        <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
@@ -44,9 +106,14 @@
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
 <script type="text/javascript">
-    $(document).ready(function() {
-        $('.menu-toggle').click(function() {
+    $(document).ready(function () {
+        $('.menu-toggle').click(function () {
             $('nav').toggleClass('active');
+        });
+        $('ul li').click(function () {
+            $(this).siblings().removeClass('active');
+            $(this).toggleClass('active');
+
         })
     })
 </script>

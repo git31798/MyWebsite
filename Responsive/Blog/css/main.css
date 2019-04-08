@@ -1,9 +1,10 @@
-body{
-    margin:0;
+body {
+    margin: 0;
     padding: 0;
     font-family: "Palatino Linotype", sans-serif;
 }
-header{
+
+header {
     position: absolute;
     top: 0;
     left: 0;
@@ -12,39 +13,100 @@ header{
     width: 100%;
     box-sizing: border-box;
 }
-header .logo{
+
+header .logo {
     color: #ffffff;
     height: 50px;
     line-height: 50px;
-    font-size: 24px;
+    font-size: 3rem;
     float: left;
     font-weight: bold;
 }
-header nav{
+
+header nav {
     float: right;
 }
-header nav ul{
-    margin:0;
+
+header nav ul {
+    margin: 0;
     padding: 0;
     display: flex;
+
 }
-header nav ul li{
+
+section ul.listgroup li,
+header nav ul li {
     list-style: none;
+    position: relative;
 }
-header nav ul li:hover > a{
+
+header nav ul li.sub-menu a i.fa-caret-down {
+    position: absolute;
+    line-height: 50px;
+    right: 5px;
+    color: #808080;
+}
+
+section ul.listgroup li a i.fa-caret-down {
+    position: absolute;
+    line-height: 50px;
+    right: 100px;
+    color: #808080;
+}
+
+section ul.listgroup li ul,
+header nav ul li ul {
+    position: absolute;
+    left: 0;
+    background: linear-gradient(#1c1c1c, #1b1b1b);
+    display: none;
+}
+
+header nav ul li.active ul {
+    display: block;
+}
+
+section ul.listgroup li.active ul {
+    display: block;
+    position: relative;
+    background: #fff;
+}
+
+header nav ul li ul li {
+    display: block;
+    width: 220px;
+}
+
+section ul.listgroup li ul li {
+    display: block;
+    width: 100%;
+}
+
+section ul.listgroup li:hover > a,
+header nav ul li:hover > a {
     border-radius: 5px 0 0 0;
     border-left: 3px solid #C4302B;
     color: #C4302B;
 }
-header nav ul li a{
+
+.active {
+    color: #ffffff;
+}
+
+section ul.listgroup li a,
+header nav ul li a {
+    font-size: 1.1rem;
     height: 50px;
     line-height: 50px;
     padding: 0 20px;
-    color: #ffffff;
-    
+    color: #808080;
     display: block;
+    font-weight: bold;
 }
-header nav ul li a:hover{
+
+section ul.listgroup li a:hover,
+header nav ul li a:hover,
+header nav ul li a.active {
     background-color: #1c1c1c;
     background: -moz-linear-gradient(#1c1c1c, #1b1b1b);
     background: -ms-linear-gradient(#1c1c1c, #1b1b1b);
@@ -59,21 +121,133 @@ header nav ul li a:hover{
     border-top: 2px solid #1B1B1B;
     text-decoration: none;
 }
-.menu-toggle{
+
+.menu-toggle {
     color: #fff;
     float: right;
-    list-style: 50px;
+    line-height: 50px;
     font-size: 24px;
     cursor: pointer;
     display: none;
 }
+
+.margin-section {
+    margin-top: 100px;
+}
+
+section ul.listgroup {
+    background: linear-gradient(#1c1c1c, #1b1b1b);
+}
+section .Box{
+    border-bottom: 2px solid gray;
+}
+section .Box .imgBox {
+    margin-right: 15px;
+    width: 100%;
+    height: 250px;
+    background-image: url('../images/tuanphamOnline.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+section .Box .content h2 a {
+    color: #000;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 2.2rem;
+
+}
+
+section .Box .content p {
+    color: #000;
+    font-size: 1.1rem;
+
+}
+
+/* Wobble Horizontal */
+@-webkit-keyframes hvr-wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+@keyframes hvr-wobble-horizontal {
+    16.65% {
+        -webkit-transform: translateX(8px);
+        transform: translateX(8px);
+    }
+    33.3% {
+        -webkit-transform: translateX(-6px);
+        transform: translateX(-6px);
+    }
+    49.95% {
+        -webkit-transform: translateX(4px);
+        transform: translateX(4px);
+    }
+    66.6% {
+        -webkit-transform: translateX(-2px);
+        transform: translateX(-2px);
+    }
+    83.25% {
+        -webkit-transform: translateX(1px);
+        transform: translateX(1px);
+    }
+    100% {
+        -webkit-transform: translateX(0);
+        transform: translateX(0);
+    }
+}
+
+.hvr-wobble-horizontal {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+.hvr-wobble-horizontal:hover, .hvr-wobble-horizontal:focus, .hvr-wobble-horizontal:active {
+    -webkit-animation-name: hvr-wobble-horizontal;
+    animation-name: hvr-wobble-horizontal;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-timing-function: ease-in-out;
+    animation-timing-function: ease-in-out;
+    -webkit-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+}
+
 @media (max-width: 991px) {
-    header{
+    header {
         padding: 0 20px;
     }
-    .menu-toggle{
+
+    .menu-toggle {
         display: block;
     }
+
     header nav {
         position: absolute;
         width: 100%;
@@ -84,17 +258,65 @@ header nav ul li a:hover{
         transition: 0.5s;
 
     }
-    header nav.active{
+
+    header nav.active {
         left: 0;
     }
-    header nav ul{
+
+    header nav ul {
         display: block;
         text-align: center;
     }
-    header nav ul li a{
-        border-bottom: 1px solid rgba(0,0,0,0.2);
+
+    header nav ul li a {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.2);
 
     }
 
+    header nav ul li.active ul {
+        position: relative;
+        background: #fff;
+        left: 0;
+
+    }
+
+    header nav ul li ul li {
+        width: 100%;
+
+    }
+
+    section ul.listgroup li a,
+    header nav ul li a {
+        font-size: 1rem;
+    }
+
+    section ul.listgroup li a i.fa-caret-down {
+        right: 60px;
+    }
+
+    section .Box .content .btn-group a {
+        font-size: 0.8rem;
+    }
+
 }
+
+@media screen and (min-width: 576px) and (max-width: 991px) {
+    section ul.listgroup li a,
+    header nav ul li a {
+        font-size: 1.05rem;
+    }
+}
+
+@media (min-width: 992px) {
+    section ul.listgroup li a i.fa-caret-down {
+        right: 50px;
+    }
+
+    section ul.listgroup li a,
+    header nav ul li a {
+        font-size: 1.05rem;
+    }
+    section .Box .content .btn-group a {
+        font-size: 0.9rem;
+    }}
 
